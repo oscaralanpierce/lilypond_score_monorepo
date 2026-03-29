@@ -5,6 +5,25 @@
 % like this:
 % \include "guitar.ly"
 
+% Increase spacing between systems and add margin space for readability
+\paper {
+  system-system-spacing.basic-distance = #16
+  system-system-spacing.padding = #4
+  top-margin = 2\cm
+  bottom-margin = 2\cm
+  left-margin = 1.5\cm
+  right-margin = 1.5\cm
+}
+
+% Increase spacing between staves within systems
+\layout {
+  \context {
+    \Score
+    \override StaffGrouper.staff-staff-spacing.basic-distance = #12
+    \override StaffGrouper.staff-staff-spacing.padding = #3
+  }
+}
+
 % This will show up at the top of your score.
 \header {
   title = "Test Piece"
