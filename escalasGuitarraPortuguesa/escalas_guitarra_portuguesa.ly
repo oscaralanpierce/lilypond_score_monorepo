@@ -52,3 +52,7 @@
   \bMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "B Major" } } }
 }
+\score {
+  \fisMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "F# Major" } } } }
+}
