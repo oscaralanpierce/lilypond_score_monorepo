@@ -32,3 +32,7 @@
   \cMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "C Major" } } }
 }
+\score {
+  \gMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "G Major" } } }
+}
