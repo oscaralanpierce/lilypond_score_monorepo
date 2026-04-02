@@ -40,3 +40,7 @@
   \dMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "D Major" } } }
 }
+\score {
+  \aMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "A Major" } } }
+}

@@ -80,3 +80,29 @@ dMajor = \new StaffGroup <<
   \dMajorTab
   \dMajorStaff
 >>
+
+%
+% A MAJOR MUSIC
+%
+
+aMajorMusic = \relative {
+  \key a \major
+  \time 2/4
+  \omit Voice.StringNumber
+
+  a8 b\5 cis d | e fis gis a | fis gis e d | cis b\5 a4 \bar "||"
+  a'8\4 b\4 cis\3 d\3 | e\2 fis\2 gis a | gis fis\2 e\2 d\3 | cis\3 b\4 a4\4 \bar "|."
+}
+
+aMajorTab = \new TabStaff = "Tab" {
+  \clef moderntab
+  \set Staff.stringTunings = #portugueseGuitarTuning
+  \aMajorMusic
+}
+
+aMajorStaff = \new Staff = "Guitarra Pt.a" \aMajorMusic
+
+aMajor = \new StaffGroup <<
+  \aMajorTab
+  \aMajorStaff
+>>
