@@ -30,29 +30,29 @@
 
 \score {
   \cMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "C Major" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó Maior" } } }
 }
 \score {
   \gMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "G Major" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol Maior" } } }
 }
 \score {
   \dMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "D Major" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Ré Maior" } } }
 }
 \score {
   \aMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "A Major" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Lá Maior" } } }
 }
 \score {
   \eMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "E Major" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Mi Maior" } } }
 }
 \score {
   \bMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "B Major" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Si Maior" } } }
 }
 \score {
   \fisMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "F# Major" } } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Fá# Maior" } } } }
 }
