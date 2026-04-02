@@ -56,3 +56,7 @@
   \fisMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Fá# Maior" } } } }
 }
+\score {
+  \desMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Ré" \flat " Maior" } } } }
+}

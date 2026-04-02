@@ -185,3 +185,29 @@ fisMajor = \new StaffGroup <<
   \fisMajorTab
   \fisMajorStaff
 >>
+
+%
+% Db MAJOR MUSIC
+%
+
+desMajorMusic = \relative {
+  \key des \major
+  \time 2/4
+  \omit Voice.StringNumber
+
+  des'8 ees f ges | aes bes c des | c bes aes ges | f ees des4 \bar "||"
+  des'8\3 ees\3 f\2 ges\2 | aes\2 bes\1 c\1 des\1 | c\1 bes\1 aes\2 ges\2 | f\2 ees\3 des4\3 \bar "|."
+}
+
+desMajorTab = \new TabStaff = "Tab" {
+  \clef moderntab
+  \set Staff.stringTunings = #portugueseGuitarTuning
+  \desMajorMusic
+}
+
+desMajorStaff = \new Staff = "Guitarra Pt.a" \desMajorMusic
+
+desMajor = \new StaffGroup <<
+  \desMajorTab
+  \desMajorStaff
+>>
