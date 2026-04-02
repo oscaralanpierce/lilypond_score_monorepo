@@ -44,3 +44,7 @@
   \aMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "A Major" } } }
 }
+\score {
+  \eMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "E Major" } } }
+}
