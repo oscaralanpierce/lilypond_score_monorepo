@@ -4,6 +4,7 @@
 \include "mi_menor.ly"
 \include "si_menor.ly"
 \include "fis_menor.ly"
+\include "cis_menor.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -81,4 +82,16 @@
 \score {
   \fisMelodicMinor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá# Menor Melódico" } } }
+}
+\score {
+  \cisNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó# Menor Natural" } } }
+}
+\score {
+  \cisHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó# Menor Harmónico" } } }
+}
+\score {
+  \cisMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó# Menor Melódico" } } }
 }
