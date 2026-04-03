@@ -6,6 +6,10 @@
 \include "fis_menor.ly"
 \include "cis_menor.ly"
 \include "gis_menor.ly"
+\include "dis_menor.ly"
+\include "bes_menor.ly"
+\include "f_menor.ly"
+\include "c_menor.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -107,4 +111,52 @@
 \score {
   \gisMelodicMinor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol# Menor Melódico" } } }
+}
+\score {
+  \disNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Ré# Menor Natural" } } }
+}
+\score {
+  \disHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Ré# Menor Harmónico" } } }
+}
+\score {
+  \disMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Ré# Menor Melódico" } } }
+}
+\score {
+  \besNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \hspace #0.15 \flat " Menor Natural" } } } }
+}
+\score {
+  \besHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \hspace #0.15 \flat " Menor Harmónico" } } } }
+}
+\score {
+  \besMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \hspace #0.15 \flat " Menor Melódico" } } } }
+}
+\score {
+  \fNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá Menor Natural" } } }
+}
+\score {
+  \fHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá Menor Harmónico" } } }
+}
+\score {
+  \fMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá Menor Melódico" } } }
+}
+\score {
+  \cNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó Menor Natural" } } }
+}
+\score {
+  \cHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó Menor Harmónico" } } }
+}
+\score {
+  \cMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó Menor Melódico" } } }
 }
