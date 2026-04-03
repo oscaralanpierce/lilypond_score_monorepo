@@ -5,6 +5,7 @@
 \include "si_menor.ly"
 \include "fis_menor.ly"
 \include "cis_menor.ly"
+\include "gis_menor.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -94,4 +95,16 @@
 \score {
   \cisMelodicMinor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó# Menor Melódico" } } }
+}
+\score {
+  \gisNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol# Menor Natural" } } }
+}
+\score {
+  \gisHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol# Menor Harmónico" } } }
+}
+\score {
+  \gisMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol# Menor Melódico" } } }
 }
