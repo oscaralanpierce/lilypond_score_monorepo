@@ -68,3 +68,7 @@
   \eesMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Mi" \flat " Maior" } } } }
 }
+\score {
+  \besMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \flat " Maior" } } } }
+}
