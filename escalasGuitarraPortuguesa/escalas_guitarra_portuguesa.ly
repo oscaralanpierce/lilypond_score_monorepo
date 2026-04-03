@@ -60,3 +60,7 @@
   \desMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Ré" \flat " Maior" } } } }
 }
+\score {
+  \aesMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Lá" \flat " Maior" } } } }
+}

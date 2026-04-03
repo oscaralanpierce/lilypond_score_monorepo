@@ -211,3 +211,29 @@ desMajor = \new StaffGroup <<
   \desMajorTab
   \desMajorStaff
 >>
+
+%
+% Ab MAJOR MUSIC
+%
+
+aesMajorMusic = \relative {
+  \key aes \major
+  \time 2/4
+  \omit Voice.StringNumber
+
+  aes8\4 bes\4 c des | ees f g aes | g f ees des | c bes aes4 \bar "||"
+  aes'8\4 bes\4 c\3 des\3 | ees\3 f\2 g\2 aes\2 | g\2 f\2 ees\3 des\3 | c\3 bes\4 aes4\4 \bar "|."
+}
+
+aesMajorTab = \new TabStaff = "Tab" {
+  \clef moderntab
+  \set Staff.stringTunings = #portugueseGuitarTuning
+  \aesMajorMusic
+}
+
+aesMajorStaff = \new Staff = "Guitarra Pt.a" \aesMajorMusic
+
+aesMajor = \new StaffGroup <<
+  \aesMajorTab
+  \aesMajorStaff
+>>
