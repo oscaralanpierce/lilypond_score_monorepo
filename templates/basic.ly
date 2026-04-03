@@ -7,12 +7,15 @@
 
 % Increase spacing between systems and add margin space for readability
 \paper {
+  markup-markup-spacing.basic-distance = #14
+  markup-system-spacing.padding = #2
   system-system-spacing.basic-distance = #16
   system-system-spacing.padding = #4
   top-margin = 2\cm
   bottom-margin = 2\cm
   left-margin = 1.5\cm
   right-margin = 1.5\cm
+  ragged-last = ##f
 }
 
 % Increase spacing between staves within systems
