@@ -12,6 +12,9 @@
   bottom-margin = 2\cm
   left-margin = 1.5\cm
   right-margin = 1.5\cm
+  indent = 0
+  ragged-last = ##f
+  tagline = ##f
 }
 
 % Increase spacing between staves within systems
@@ -24,7 +27,7 @@
 }
 
 \header {
-  title = "Escalas"
+  title = "Escalas Maiores"
   subtitle = "Afinação de Lisboa"
 }
 
@@ -58,19 +61,19 @@
 }
 \score {
   \desMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Ré" \flat " Maior" } } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Ré" \hspace #0.15 \flat " Maior" } } } }
 }
 \score {
   \aesMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Lá" \flat " Maior" } } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Lá" \hspace #0.15 \flat " Maior" } } } }
 }
 \score {
   \eesMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Mi" \flat " Maior" } } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Mi" \hspace #0.15 \flat " Maior" } } } }
 }
 \score {
   \besMajor
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \flat " Maior" } } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \hspace #0.15 \flat " Maior" } } } }
 }
 \score {
   \fMajor
