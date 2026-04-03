@@ -11,7 +11,7 @@ fNaturalMinorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  f8\6 g aes bes | c\5 des es f\4 | es des c\5 bes | aes g f4\6 \bar "||"
+  f8\6 g aes bes | c\5 des es f\3 | es des c\5 bes | aes g f4\6 \bar "||"
   f'8\4 g\4 aes\3 bes\3 | c\3 des\2 es\2 f\2 | es\2 des\2 c\3 bes\3 | aes\3 g\4 f4\4 \bar "|."
 }
 
@@ -33,7 +33,7 @@ fHarmonicMinorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  f8\6 g aes bes | c\5 des\5 e\4 f\4 | e\4 des\5 c\5 bes | aes g f4\6 \bar "||"
+  f8\6 g aes bes | c\5 des\5 e\3 f\3 | e\3 des\5 c\5 bes | aes g f4\6 \bar "||"
   f'8\4 g\4 aes\3 bes\3 | c\3 des\2 e\2 f\2 | e\2 des\2 c\3 bes\3 | aes\3 g\4 f4\4 \bar "|."
 }
 

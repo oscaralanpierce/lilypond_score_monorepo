@@ -55,8 +55,8 @@ aMelodicMinorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
   
-  a8 b c d | e fis gis a | g f e d | c b a4 \bar "||"
-  a'8\3 b\3 c\3 d\2 | e\2 fis\2 gis\2 a | g\2 f\2 e\2 d\2 | c\3 b\3 a4\3 \bar "|."
+  a8 b c d | e fis gis a\3 | g f e d | c b a4 \bar "||"
+  a'8\4 b\4 c\4 d\3 | e\3 fis\3 gis\2 a\2 | g\2 f\3 e\3 d\3 | c\4 b\4 a4\4 \bar "|."
 }
 
 aMelodicMinorTab = \new TabStaff = "Tab" {
