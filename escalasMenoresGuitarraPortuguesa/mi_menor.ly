@@ -12,7 +12,8 @@ eNaturalMinorMusic = \relative {
   \omit Voice.StringNumber
 
   e8\6 fis g a | b c d e | d c b a | g fis e4\6 \bar "||"
-  e'8\3 fis\3 g\3 a\2 | b\1 c\1 d\1 e\1 | d\1 c\1 b\1 a\1 | g\3 fis\3 e4\3 \bar "|."
+  e'8\3 fis\3 g\3 a\2 | b\1 c\1 d\1 e\1 | d\1 c\1 b\1 a\1 | g\3 fis\3 e4\3 \bar "||"
+  e'8\3 fis\3 g\2 a\2 | b\2 c\1 d\1 e\1 | d\1 c\1 b\2 a\2 | g\2 fis\3 e4\3 \bar "|."
 }
 
 eNaturalMinorTab = \new TabStaff = "Tab" {
@@ -34,7 +35,8 @@ eHarmonicMinorMusic = \relative {
   \omit Voice.StringNumber
 
   e8\6 fis g a | b c dis e | dis c b a | g fis e4\6 \bar "||"
-  e'8\3 fis\3 g\3 a\2 | b\2 c\2 dis\1 e\1 | dis\1 c\2 b\2 a\2 | g\3 fis\3 e4\3 \bar "|."
+  e'8\3 fis\3 g\3 a\2 | b\2 c\2 dis\1 e\1 | dis\1 c\2 b\2 a\2 | g\3 fis\3 e4\3 \bar "||"
+  e'8\3 fis\3 g\2 a\2 | b\2 c\1 dis\1 e\1 | dis\1 c\1 b\2 a\2 | g\2 fis\3 e4\3 \bar "|."
 }
 
 eHarmonicMinorTab = \new TabStaff = "Tab" {
@@ -56,7 +58,8 @@ eMelodicMinorMusic = \relative {
   \omit Voice.StringNumber
 
   e8\6 fis g a | b cis dis e | d c b a | g fis e4\6 \bar "||"
-  e'8\4 fis\4 g\4 a\3 | b\3 cis\3 dis\2 e\2 | d\2 c\3 b\3 a\3 | g\4 fis\4 e4\4 \bar "|."
+  e'8\4 fis\4 g\4 a\3 | b\3 cis\3 dis\2 e\2 | d\2 c\3 b\3 a\3 | g\4 fis\4 e4\4 \bar "||"
+  e'8\3 fis\3 g\2 a\1 | b\1 cis\1 dis\1 e\1 | d\1 c\1 b\2 a\2 | g\2 fis\3 e4\3 \bar "|."
 }
 
 eMelodicMinorTab = \new TabStaff = "Tab" {
