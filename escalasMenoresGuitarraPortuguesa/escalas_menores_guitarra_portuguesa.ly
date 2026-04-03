@@ -1,6 +1,8 @@
 \version "2.24.4"
 
 \include "la_menor.ly"
+\include "mi_menor.ly"
+\include "si_menor.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -42,4 +44,28 @@
 \score {
   \aMelodicMinor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Lá Menor Melódico" } } }
+}
+\score {
+  \eNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Mi Menor Natural" } } }
+}
+\score {
+  \eHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Mi Menor Harmónico" } } }
+}
+\score {
+  \eMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Mi Menor Melódico" } } }
+}
+\score {
+  \bNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Si Menor Natural" } } }
+}
+\score {
+  \bHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Si Menor Harmónico" } } }
+}
+\score {
+  \bMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Si Menor Melódico" } } }
 }
