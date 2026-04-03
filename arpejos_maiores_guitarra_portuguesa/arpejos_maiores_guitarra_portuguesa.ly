@@ -1,6 +1,8 @@
 \version "2.24.4"
 
 \include "do_maior.ly"
+\include "re_maior.ly"
+\include "sol_maior.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -14,7 +16,6 @@
   right-margin = 1.5\cm
   ragged-last = ##f
   tagline = ##f
-
 }
 
 % Increase spacing between staves within systems
@@ -35,4 +36,12 @@
 \score {
   \doMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó Maior" } } }
+}
+\score {
+  \solMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol Maior" } } }
+}
+\score {
+  \reMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Ré Maior" } } }
 }

@@ -2,16 +2,12 @@
 
 \include "tuning.ly"
 
-%
-% C MAJOR
-%
-
 cMajorMusic = \relative c' {
   \key c \major
   \time 2/4
   \omit Voice.StringNumber
 
-  c8\5 e\4 g\4 c\2 | e\2 g\2 c\1 g\2 | e\2 c\2 g\4 e\4 | c2\5 \bar "|."
+  c8\5 e\4 g\4 c\2 | e\2 g\2 c\1 g\2 | e\2 c\2 g\4 e\4 | c2\5\fermata \bar "|."
 }
 
 cMajorTab = \new TabStaff = "Tab" {
