@@ -237,3 +237,30 @@ aesMajor = \new StaffGroup <<
   \aesMajorTab
   \aesMajorStaff
 >>
+
+%
+% Eb MAJOR MUSIC
+%
+
+eesMajorMusic = \relative {
+  \key ees \major
+  \time 2/4
+  \omit Voice.StringNumber
+
+  ees8\6 f g aes | bes c\5 d ees | d\5 c bes aes | g f ees4 \bar "||"
+  ees'8 f g aes | bes c\2 d\2 ees | d\2 c\2 bes aes | g f ees4 \bar "||"
+  ees'8\3 f\3 g\2 aes\2 | bes\1 c\1 d\1 ees\1 | d\1 c\1 bes\1 aes\2 | g\2 f\3 ees4\3 \bar "|."
+}
+
+eesMajorTab = \new TabStaff = "Tab" {
+  \clef moderntab
+  \set Staff.stringTunings = #portugueseGuitarTuning
+  \eesMajorMusic
+}
+
+eesMajorStaff = \new Staff = "Guitarra Pt.a" \eesMajorMusic
+
+eesMajor = \new StaffGroup <<
+  \eesMajorTab
+  \eesMajorStaff
+>>
