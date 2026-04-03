@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-portugueseGuitarTuning = \stringTuning <d a b e' a' b'>
+\include "tuning.ly"
 
 %
 % C MAJOR
@@ -289,4 +289,31 @@ besMajorStaff = \new Staff = "Guitarra Pt.a" \besMajorMusic
 besMajor = \new StaffGroup <<
   \besMajorTab
   \besMajorStaff
+>>
+
+%
+% F MAJOR MUSIC
+%
+
+fMajorMusic = \relative {
+  \key f \major
+  \time 2/4
+  \omit Voice.StringNumber
+
+  f8\6 g a bes | c\5 d\5 e f | e d\5 c\5 bes | a g f4\6 \bar "||"
+  f'8 g a bes | c\2 d\2 e\2 f\2 | e\2 d\2 c\2 bes | a g f4 \bar "||"
+  f'8\3 g\3 a\2 bes\2 | c\2 d\2 e\1 f\1 | e\1 d\2 c\2 bes\2 | a\2 g\3 f4\3 \bar "|."
+}
+
+fMajorTab = \new TabStaff = "Tab" {
+  \clef moderntab
+  \set Staff.stringTunings = #portugueseGuitarTuning
+  \fMajorMusic
+}
+
+fMajorStaff = \new Staff = "Guitarra Pt.a" \fMajorMusic
+
+fMajor = \new StaffGroup <<
+  \fMajorTab
+  \fMajorStaff
 >>

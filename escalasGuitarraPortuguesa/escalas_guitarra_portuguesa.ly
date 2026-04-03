@@ -72,3 +72,7 @@
   \besMajor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \flat " Maior" } } } }
 }
+\score {
+  \fMajor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá Maior" } } }
+}
