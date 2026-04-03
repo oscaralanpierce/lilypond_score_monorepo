@@ -11,8 +11,8 @@ cMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  c'8 d e f | g a b c | b a g f | e d c4 \bar "||"
-  c'8\4 d\4 e\3 f\3 | g\2 a\2 b c | b a\2 g\2 f\3 | e\3 d\4 c4\4 \bar "|."
+  c'8 d e f | g a b\2 c\2 | b\2 a g f | e d c4 \bar "||"
+  c'8\4 d\3 e\3 f\3 | g\2 a\2 b\2 c\2 | b\2 a\2 g\2 f\3 | e\3 d\3 c4\4 \bar "|."
 }
 
 cMajorTab = \new TabStaff = "Tab" {
@@ -37,8 +37,8 @@ gMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  g8\6 a b\5 c\5 | d e fis g | fis e d c\5 | b\5 a g4 \bar "||"
-  g'8\4 a\4 b\3 c\3 | d\2 e\2 fis\2 g | fis\2 e\2 d\2 c\3 | b\3 a\4 g4\4 \bar "|."
+  g8\6 a b\5 c\4 | d\4 e fis g | fis e d\4 c\4 | b\5 a g4 \bar "||"
+  g'8\4 a\4 b\3 c\3 | d\3 e\2 fis\2 g\2 | fis\2 e\2 d\3 c\3 | b\3 a\4 g4\4 \bar "|."
 }
 
 gMajorTab = \new TabStaff = "Tab" {
@@ -64,7 +64,7 @@ dMajorMusic = \relative {
   \omit Voice.StringNumber
 
   d8 e fis g | a b cis d | cis b a g | fis e d4 \bar "||"
-  d'8 e fis g | a b cis d | cis b a g | fis e d4 \bar "||"
+  d'8 e\4 fis g | a\3 b\2 cis\2 d\2 | cis\2 b\2 a\3 g | fis e\4 d4 \bar "||"
   d'8\3 e\3 fis\2 g\2 | a b cis d | cis b a g\2 | fis\2 e\3 d4\3 \bar "|."
 }
 
@@ -90,8 +90,8 @@ aMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  a8 b\5 cis d | e fis gis a | fis gis e d | cis b\5 a4 \bar "||"
-  a'8\4 b\4 cis\3 d\3 | e\2 fis\2 gis a | gis fis\2 e\2 d\3 | cis\3 b\4 a4\4 \bar "|."
+  a8 b\4 cis d | e\4 fis gis a\3 | gis fis e\4 d | cis b a4 \bar "||"
+  a'8\4 b\4 cis\3 d\3 | e\3 fis\2 gis\2 a\2 | gis\2 fis\2 e\3 d\3 | cis\3 b\4 a4\4 \bar "|."
 }
 
 aMajorTab = \new TabStaff = "Tab" {
@@ -118,7 +118,7 @@ eMajorMusic = \relative {
 
   e8 fis gis a | b cis dis e\4 | dis cis b a | gis fis e4 \bar "||"
   e'8 fis gis a | b cis dis e | dis cis b a | gis fis e4 \bar "||"
-  e'8\3 fis\3 gis\3 a\3 | b\2 cis\2 dis e | dis cis\2 b\2 a\3 | gis\3 fis\3 e4\3 \bar "|."
+  e'8\3 fis\3 gis\2 a\2 | b\1 cis\1 dis e | dis cis\1 b\1 a\2 | gis\2 fis\3 e4\3 \bar "|."
 }
 
 eMajorTab = \new TabStaff = "Tab" {
@@ -143,8 +143,8 @@ bMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  b8 cis dis e | fis gis ais b | ais gis fis e | dis cis b4 \bar "||"
-  b'8\4 cis\3 dis\3 e\3 | fis\2 gis\2 ais\1 b\1 | ais\1 gis\2 fis\2 e\3 | dis\3 cis\3 b4\4 \bar "|."
+  b8 cis dis e | fis gis ais b\2 | ais gis fis e | dis cis b4 \bar "||"
+  b'8\4 cis\4 dis\3 e\3 | fis\3 gis\2 ais\2 b\2 | ais\2 gis\2 fis\3 e\3 | dis\3 cis\4 b4\4 \bar "|."
 }
 
 bMajorTab = \new TabStaff = "Tab" {
@@ -195,7 +195,7 @@ desMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  des'8 ees f ges | aes bes c des | c bes aes ges | f ees des4 \bar "||"
+  des'8 ees f ges | aes bes c\2 des\2 | c\2 bes aes ges | f ees des4 \bar "||"
   des'8\3 ees\3 f\2 ges\2 | aes\2 bes\1 c\1 des\1 | c\1 bes\1 aes\2 ges\2 | f\2 ees\3 des4\3 \bar "|."
 }
 
@@ -221,7 +221,7 @@ aesMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  aes8\4 bes\4 c des | ees f g aes | g f ees des | c bes aes4 \bar "||"
+  aes8\4 bes\4 c\5 des | ees f g aes | g f ees des | c\5 bes aes4 \bar "||"
   aes'8\4 bes\4 c\3 des\3 | ees\3 f\2 g\2 aes\2 | g\2 f\2 ees\3 des\3 | c\3 bes\4 aes4\4 \bar "|."
 }
 
@@ -247,8 +247,8 @@ eesMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  ees8\6 f g aes | bes c\5 d ees | d\5 c bes aes | g f ees4 \bar "||"
-  ees'8 f g aes | bes c\2 d\2 ees | d\2 c\2 bes aes | g f ees4 \bar "||"
+  ees8\6 f g aes | bes c\4 d ees | d c bes aes | g f ees4 \bar "||"
+  ees'8 f\4 g aes | bes\3 c\2 d\2 ees\2 | d\2 c\2 bes\3 aes | g f\3 ees4 \bar "||"
   ees'8\3 f\3 g\2 aes\2 | bes\1 c\1 d\1 ees\1 | d\1 c\1 bes\1 aes\2 | g\2 f\3 ees4\3 \bar "|."
 }
 
@@ -274,8 +274,8 @@ besMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  bes8\5 c\5 d\5 ees | f g a bes | a g f ees | d\5 c\5 bes4\5 \bar "||"
-  bes'8\3 c\2 d\2 ees | f g a bes | a g f ees | d\2 c\2 bes4\3 \bar "|."
+  bes8\5 c\4 d\4 ees | f g a bes | a g f ees | d\4 c\4 bes4\5 \bar "||"
+  bes'8\4 c\4 d\3 ees\3 | f\3 g\2 a\2 bes\2 | a\2 g\2 f\3 ees\3 | d\3 c\4 bes4\4 \bar "|."
 }
 
 besMajorTab = \new TabStaff = "Tab" {
@@ -301,8 +301,8 @@ fMajorMusic = \relative {
   \omit Voice.StringNumber
 
   f8\6 g a bes | c\5 d\5 e f | e d\5 c\5 bes | a g f4\6 \bar "||"
-  f'8 g a bes | c\2 d\2 e\2 f\2 | e\2 d\2 c\2 bes | a g f4 \bar "||"
-  f'8\3 g\3 a\2 bes\2 | c\2 d\2 e\1 f\1 | e\1 d\2 c\2 bes\2 | a\2 g\3 f4\3 \bar "|."
+  f'8 g a bes | c\2 d\1 e\1 f\1 | e\1 d\1 c\2 bes | a g f4 \bar "||"
+  f'8\3 g\3 a\2 bes\2 | c\2 d\1 e\1 f\1 | e\1 d\1 c\2 bes\2 | a\2 g\3 f4\3 \bar "|."
 }
 
 fMajorTab = \new TabStaff = "Tab" {
