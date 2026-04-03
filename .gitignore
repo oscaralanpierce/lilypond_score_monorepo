@@ -1,2 +1,3 @@
 # Ignore generated PDF files from LilyPond source
 **/*.pdf
+.DS_Store
