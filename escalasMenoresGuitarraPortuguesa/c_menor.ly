@@ -11,7 +11,7 @@ cNaturalMinorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  c'8\5 d\5 es f\4 | g aes bes c\2 | bes aes g f\4 | es d\5 c4\5 \bar "||"
+  c'8\5 d\5 es f\4 | g aes bes\3 c\3 | bes\3 aes g f\4 | es d\5 c4\5 \bar "||"
   c'8\3 d\3 es\3 f\2 | g\2 aes\1 bes\1 c\1 | bes\1 aes\1 g\2 f\2 | es\3 d\3 c4\3 \bar "|."
 }
 
@@ -55,8 +55,8 @@ cMelodicMinorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  c'8\5 d\5 es f\4 | g a\3 b\2 c\2 | bes aes g f\4 | es d\5 c4\5 \bar "||"
-  c'8\3 d\3 es\3 f\2 | g\2 a\2 b\2 c\1 | bes\1 aes\1 g\2 f\2 | es\3 d\3 c4\3 \bar "|."
+  c'8\5 d\5 es f\4 | g a\3 b\2 c\2 | bes\3 aes g f\4 | es d\5 c4\5 \bar "||"
+  c'8\3 d\3 es\3 f\2 | g\1 a\1 b\1 c\1 | bes\1 aes\1 g\2 f\2 | es\3 d\3 c4\3 \bar "|."
 }
 
 cMelodicMinorTab = \new TabStaff = "Tab" {

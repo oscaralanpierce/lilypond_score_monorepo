@@ -56,7 +56,7 @@ cisMelodicMinorMusic = \relative {
   \omit Voice.StringNumber
 
   cis'8\4 dis\4 e\3 fis\3 | gis\3 ais\2 bis\2 cis\2 | b\2 a\2 gis\3 fis\3 | e\3 dis\4 cis4\4 \bar "||"
-  cis'8\3 dis\3 e\3 fis\1 | gis\1 ais\1 bis\1 cis\1 | b\1 a\1 gis\2 fis\2 | e\3 dis\3 cis4\3 \bar "|."
+  cis'8\3 dis\3 e\3 fis\2 | gis\1 ais\1 bis\1 cis\1 | b\1 a\1 gis\2 fis\2 | e\3 dis\3 cis4\3 \bar "|."
 }
 
 cisMelodicMinorTab = \new TabStaff = "Tab" {
