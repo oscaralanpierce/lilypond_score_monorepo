@@ -3,6 +3,7 @@
 \include "do_maior.ly"
 \include "re_maior.ly"
 \include "sol_maior.ly"
+\include "la_maior.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -44,4 +45,8 @@
 \score {
   \reMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Ré Maior" } } }
+}
+\score {
+  \laMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Lá Maior" } } }
 }
