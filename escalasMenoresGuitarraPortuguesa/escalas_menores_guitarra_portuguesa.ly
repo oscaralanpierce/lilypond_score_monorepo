@@ -10,6 +10,7 @@
 \include "bes_menor.ly"
 \include "f_menor.ly"
 \include "c_menor.ly"
+\include "g_menor.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -159,4 +160,16 @@
 \score {
   \cMelodicMinor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Dó Menor Melódico" } } }
+}
+\score {
+  \gNaturalMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol Menor Natural" } } }
+}
+\score {
+  \gHarmonicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol Menor Harmónico" } } }
+}
+\score {
+  \gMelodicMinor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Sol Menor Melódico" } } }
 }
