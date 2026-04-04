@@ -5,6 +5,7 @@
 \include "mi_maior.ly"
 \include "sol_maior.ly"
 \include "la_maior.ly"
+\include "si_maior.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -54,4 +55,8 @@
 \score {
   \miMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Mi Maior" } } }
+}
+\score {
+  \siMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Si Maior" } } }
 }
