@@ -1,6 +1,6 @@
 \version "2.24.4"
 
-\include "tuning.ly"
+\include "../shared/tuning.ly"
 
 %
 % F# MINOR
