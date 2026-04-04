@@ -23,6 +23,7 @@
   bottom-margin = 2\cm
   left-margin = 1.5\cm
   right-margin = 1.5\cm
+  indent = 0
   ragged-last = ##f
   tagline = ##f
 }
