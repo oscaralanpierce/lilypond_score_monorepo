@@ -11,9 +11,9 @@ eMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  \tuplet 3/2 { e8\6 gis\6 b\4 } \tuplet 3/2 { e\3 gis\3 b\1 } |
-  \tuplet 3/2 { e\2 gis\1 b\1 } \tuplet 3/2 { e\1 b\1 gis\1 } |
-  \tuplet 3/2 { e\2 b\1 gis\3 } \tuplet 3/2 { e\3 b\4 gis\6 } |
+  \tuplet 3/2 { e8\6 gis\6 b\5 } \tuplet 3/2 { e\4 gis\3 b\3 } |
+  \tuplet 3/2 { e\3 gis\2 b\2 } \tuplet 3/2 { e\1 b\2 gis\2 } |
+  \tuplet 3/2 { e\3 b\3 gis\3 } \tuplet 3/2 { e\4 b\5 gis\6 } |
   e2\6\fermata \bar "|."
 }
 

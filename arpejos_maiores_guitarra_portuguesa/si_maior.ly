@@ -11,7 +11,7 @@ bMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  b8\4 dis\4 fis\3 b\1 | dis\2 fis\2 b\1 fis\2 | dis\2 b\1 fis\3 dis\4 | b2\4\fermata \bar "|."
+  b8\6 dis\6 fis\5 b\5 | dis\3 fis\3 b\2 fis\3 | dis\3 b\5 fis\5 dis\6 | b2\6\fermata \bar "|."
 }
 
 bMajorTab = \new TabStaff = "Tab" {

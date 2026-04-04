@@ -11,7 +11,7 @@ gMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  g8\6 b\4 d\4 g\4 | b\3 d\2 g\2 d\2 | b\3 g\4 d\4 b\4 | g2\6\fermata \bar "|."
+  g8\6 b\5 d\4 g\3 | b\3 d\2 g\2 d\2 | b\3 g\3 d\4 b\5 | g2\6\fermata \bar "|."
 }
 
 gMajorTab = \new TabStaff = "Tab" {
