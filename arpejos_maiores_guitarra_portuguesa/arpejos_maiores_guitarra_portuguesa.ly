@@ -1,11 +1,16 @@
 \version "2.24.4"
 
 \include "do_maior.ly"
+\include "des_maior.ly"
 \include "re_maior.ly"
+\include "ees_maior.ly"
 \include "mi_maior.ly"
+\include "fa_maior.ly"
 \include "fis_maior.ly"
 \include "sol_maior.ly"
+\include "aes_maior.ly"
 \include "la_maior.ly"
+\include "bes_maior.ly"
 \include "si_maior.ly"
 
 % Increase spacing between systems and add margin space for readability
@@ -64,4 +69,24 @@
 \score {
   \fisMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá# Maior" } } }
+}
+\score {
+  \desMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Ré" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \aesMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Lá" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \eesMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Mi" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \besMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Si" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \faMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá Maior" } } }
 }
