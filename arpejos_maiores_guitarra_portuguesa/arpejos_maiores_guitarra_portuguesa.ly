@@ -3,6 +3,7 @@
 \include "do_maior.ly"
 \include "re_maior.ly"
 \include "mi_maior.ly"
+\include "fis_maior.ly"
 \include "sol_maior.ly"
 \include "la_maior.ly"
 \include "si_maior.ly"
@@ -59,4 +60,8 @@
 \score {
   \siMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Si Maior" } } }
+}
+\score {
+  \fisMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Fá# Maior" } } }
 }
