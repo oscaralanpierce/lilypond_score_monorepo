@@ -37,6 +37,4 @@
 }
 
 % Assemble final score
-<<
-  \guitarraPortuguesa
->>
+\guitarraPortuguesa
