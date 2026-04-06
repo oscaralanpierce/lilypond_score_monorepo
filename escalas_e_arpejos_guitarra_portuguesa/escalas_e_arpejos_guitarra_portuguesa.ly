@@ -10,6 +10,8 @@
 \include "tonalidades_do_sus_re_bemol.ly"
 \include "tonalidades_sol_sus_la_bemol.ly"
 \include "tonalidades_re_sus_mib.ly"
+\include "tonalidades_la_sus_sib.ly"
+\include "tonalidades_fa.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -19,8 +21,8 @@
   system-system-spacing.padding = #4
   top-margin = 2\cm
   bottom-margin = 2\cm
-  left-margin = 1.5\cm
-  right-margin = 1.5\cm
+  left-margin = 2\cm
+  right-margin = 2\cm
   indent = 0
   ragged-last = ##f
   tagline = ##f
@@ -341,7 +343,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                           %
-% TONALIDADE DE RÉ#/MIB     %
+% TONALIDADE DE RÉ#/MIb     %
 %                           %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -370,4 +372,70 @@
 \score {
   \arpejoReSusMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Ré# Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                           %
+% TONALIDADE DE LÁ#/SIB     %
+%                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 \concat { "Tonalidades de Lá#/Si" \hspace #0.15 \flat } } }
+
+\score {
+  \escalaSibMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Escalas Si" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \arpejoSibMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Arpejos Si" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \escalaLaSusMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Lá# Menor Naturais" } } }
+}
+\score {
+  \escalaLaSusMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Lá# Menor Harmónicas" } } }
+}
+\score {
+  \escalaLaSusMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Lá# Menor Melódicas" } } }
+}
+\score {
+  \arpejoLaSusMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Lá# Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%                   %
+% TONALIDADE DE FÁ  %
+%                   %
+%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Fá" } }
+
+\score {
+  \escalaFaMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá Maior" } } }
+}
+\score {
+  \arpejoFaMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Fá Maior" } } }
+}
+\score {
+  \escalaFaMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá Menor Naturais" } } }
+}
+\score {
+  \escalaFaMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá Menor Harmónicas" } } }
+}
+\score {
+  \escalaFaMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá Menor Melódicas" } } }
+}
+\score {
+  \arpejoFaMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Fá Menor" } } }
 }
