@@ -2,6 +2,7 @@
 
 \include "tonalidades_do.ly"
 \include "tonalidades_sol.ly"
+\include "tonalidades_re.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -96,4 +97,37 @@
 \score {
   \arpejoSolMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Sol Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%                   %
+% TONALIDADE DE RÉ  %
+%                   %
+%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Ré" } }
+
+\score {
+  \escalaReMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré Maior" } } }
+}
+\score {
+  \arpejoReMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Ré Maior" } } }
+}
+\score {
+  \escalaReMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré Menor Naturais" } } }
+}
+\score {
+  \escalaReMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré Menor Harmónicas" } } }
+}
+\score {
+  \escalaReMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré Menor Melódicas" } } }
+}
+\score {
+  \arpejoReMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Ré Menor" } } }
 }
