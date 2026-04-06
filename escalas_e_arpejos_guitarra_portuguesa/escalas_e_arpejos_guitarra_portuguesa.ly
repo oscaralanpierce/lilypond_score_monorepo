@@ -4,6 +4,7 @@
 \include "tonalidades_sol.ly"
 \include "tonalidades_re.ly"
 \include "tonalidades_la.ly"
+\include "tonalidades_mi.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -164,4 +165,37 @@
 \score {
   \arpejoLaMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Lá Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%                   %
+% TONALIDADE DE MI  %
+%                   %
+%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Mi" } }
+
+\score {
+  \escalaMiMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Mi Maior" } } }
+}
+\score {
+  \arpejoMiMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Mi Maior" } } }
+}
+\score {
+  \escalaMiMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Mi Menor Naturais" } } }
+}
+\score {
+  \escalaMiMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Mi Menor Harmónicas" } } }
+}
+\score {
+  \escalaMiMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Mi Menor Melódicas" } } }
+}
+\score {
+  \arpejoMiMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Mi Menor" } } }
 }
