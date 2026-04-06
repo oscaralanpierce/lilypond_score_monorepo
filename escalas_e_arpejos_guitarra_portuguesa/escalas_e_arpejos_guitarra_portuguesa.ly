@@ -5,6 +5,8 @@
 \include "tonalidades_re.ly"
 \include "tonalidades_la.ly"
 \include "tonalidades_mi.ly"
+\include "tonalidades_si.ly"
+\include "tonalidades_fa_sus.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -198,4 +200,71 @@
 \score {
   \arpejoMiMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Mi Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%                   %
+% TONALIDADE DE SI  %
+%                   %
+%%%%%%%%%%%%%%%%%%%%%
+
+\pageBreak % This was rendering on the previous page by itself
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Si" } }
+
+\score {
+  \escalaSiMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Si Maior" } } }
+}
+\score {
+  \arpejoSiMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Si Maior" } } }
+}
+\score {
+  \escalaSiMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Si Menor Naturais" } } }
+}
+\score {
+  \escalaSiMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Si Menor Harmónicas" } } }
+}
+\score {
+  \escalaSiMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Si Menor Melódicas" } } }
+}
+\score {
+  \arpejoSiMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Si Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        %
+% TONALIDADE DE FÁ#/SOLb %
+%                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Fá#" } }
+
+\score {
+  \escalaFaSusMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá# Maior" } } }
+}
+\score {
+  \arpejoFaSusMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Fá# Maior" } } }
+}
+\score {
+  \escalaFaSusMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá# Menor Naturais" } } }
+}
+\score {
+  \escalaFaSusMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá# Menor Harmónicas" } } }
+}
+\score {
+  \escalaFaSusMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Fá# Menor Melódicas" } } }
+}
+\score {
+  \arpejoFaSusMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Fá# Menor" } } }
 }
