@@ -9,6 +9,7 @@
 \include "tonalidades_fa_sus.ly"
 \include "tonalidades_do_sus_re_bemol.ly"
 \include "tonalidades_sol_sus_la_bemol.ly"
+\include "tonalidades_re_sus_mib.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -336,4 +337,37 @@
 \score {
   \arpejoSolSusMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Sol# Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                           %
+% TONALIDADE DE RÉ#/MIB     %
+%                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 \concat { "Tonalidades de Ré#/Mi" \hspace #0.15 \flat } } }
+
+\score {
+  \escalaMibMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Escalas Mi" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \arpejoMibMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Arpejos Mi" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \escalaReSusMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré# Menor Naturais" } } }
+}
+\score {
+  \escalaReSusMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré# Menor Harmónicas" } } }
+}
+\score {
+  \escalaReSusMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Ré# Menor Melódicas" } } }
+}
+\score {
+  \arpejoReSusMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Ré# Menor" } } }
 }
