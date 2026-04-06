@@ -7,6 +7,7 @@
 \include "tonalidades_mi.ly"
 \include "tonalidades_si.ly"
 \include "tonalidades_fa_sus.ly"
+\include "tonalidades_do_sus_re_bemol.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -236,11 +237,11 @@
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Si Menor" } } }
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                        %
-% TONALIDADE DE FÁ#/SOLb %
-%                        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+%                   %
+% TONALIDADE DE FÁ# %
+%                   %
+%%%%%%%%%%%%%%%%%%%%%
 
 \markup { \fill-line { \bold \fontsize #2 "Tonalidades de Fá#" } }
 
@@ -267,4 +268,38 @@
 \score {
   \arpejoFaSusMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Fá# Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                             %
+% TONALIDADE DE DO#/RÉb       %
+%                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pageBreak
+\markup { \fill-line { \bold \fontsize #2 \concat { "Tonalidades de Do#/Ré" \hspace #0.15 \flat } } }
+
+\score {
+  \escalaDoSusMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Escalas Ré" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \arpejoDoSusMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Arpejos Ré" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \escalaDoSusMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Do# Menor Naturais" } } }
+}
+\score {
+  \escalaDoSusMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Do# Menor Harmónicas" } } }
+}
+\score {
+  \escalaDoSusMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Do# Menor Melódicas" } } }
+}
+\score {
+  \arpejoDoSusMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Do# Menor" } } }
 }
