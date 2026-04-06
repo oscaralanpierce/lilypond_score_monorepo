@@ -17,17 +17,17 @@ dosus_escalaMaior = \relative {
   des'8\3 ees\3 f\2 ges\2 | aes\2 bes\1 c\1 des\1 | c\1 bes\1 aes\2 ges\2 | f\2 ees\3 des4\3 \bar "|."
 }
 
-tabEscalaDoSusMaior = \new TabStaff = "Tab" {
+tabEscalaReBemolMaior = \new TabStaff = "Tab" {
   \clef moderntab
   \set Staff.stringTunings = #portugueseGuitarTuning
   \dosus_escalaMaior
 }
 
-pautaEscalaDoSusMaior = \new Staff = "Guitarra Pt.a" \dosus_escalaMaior
+pautaEscalaReBemolMaior = \new Staff = "Guitarra Pt.a" \dosus_escalaMaior
 
-escalaDoSusMaior = \new StaffGroup <<
-  \tabEscalaDoSusMaior
-  \pautaEscalaDoSusMaior
+escalaReBemolMaior = \new StaffGroup <<
+  \tabEscalaReBemolMaior
+  \pautaEscalaReBemolMaior
 >>
 
 %%%%%%%%%%%%%%%%
@@ -44,17 +44,17 @@ dosus_arpejoMaior = \relative c' {
   des8 f aes des\2 | f\2 aes\2 des aes\2 | f\2 des\2 aes f | des2\fermata \bar "|."
 }
 
-tabArpejoDoSusMaior = \new TabStaff = "Tab" {
+tabArpejoReBemolMaior = \new TabStaff = "Tab" {
   \clef moderntab
   \set Staff.stringTunings = #portugueseGuitarTuning
   \dosus_arpejoMaior
 }
 
-pautaArpejoDoSusMaior = \new Staff = "Guitarra Pt.a" \dosus_arpejoMaior
+pautaArpejoReBemolMaior = \new Staff = "Guitarra Pt.a" \dosus_arpejoMaior
 
-arpejoDoSusMaior = \new StaffGroup <<
-  \tabArpejoDoSusMaior
-  \pautaArpejoDoSusMaior
+arpejoReBemolMaior = \new StaffGroup <<
+  \tabArpejoReBemolMaior
+  \pautaArpejoReBemolMaior
 >>
 
 %%%%%%%%%%%%%%%%%%%%%%%%

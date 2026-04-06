@@ -8,6 +8,7 @@
 \include "tonalidades_si.ly"
 \include "tonalidades_fa_sus.ly"
 \include "tonalidades_do_sus_re_bemol.ly"
+\include "tonalidades_sol_sus_la_bemol.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
@@ -280,11 +281,11 @@
 \markup { \fill-line { \bold \fontsize #2 \concat { "Tonalidades de Do#/Ré" \hspace #0.15 \flat } } }
 
 \score {
-  \escalaDoSusMaior
+  \escalaReBemolMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Escalas Ré" \hspace #0.15 \flat " Maior" } } } }
 }
 \score {
-  \arpejoDoSusMaior
+  \arpejoReBemolMaior
   \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Arpejos Ré" \hspace #0.15 \flat " Maior" } } } }
 }
 \score {
@@ -302,4 +303,37 @@
 \score {
   \arpejoDoSusMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Do# Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                           %
+% TONALIDADE DE SOL#/LÁB    %
+%                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 \concat { "Tonalidades de Sol#/Lá" \hspace #0.15 \flat } } }
+
+\score {
+  \escalaLaBemolMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Escalas Lá" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \arpejoLaBemolMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 \concat { "Arpejos Lá" \hspace #0.15 \flat " Maior" } } } }
+}
+\score {
+  \escalaSolSusMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol# Menor Naturais" } } }
+}
+\score {
+  \escalaSolSusMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol# Menor Harmónicas" } } }
+}
+\score {
+  \escalaSolSusMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol# Menor Melódicas" } } }
+}
+\score {
+  \arpejoSolSusMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Sol# Menor" } } }
 }
