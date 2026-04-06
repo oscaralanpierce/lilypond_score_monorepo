@@ -87,11 +87,11 @@ escalaDoMenorNatural = \new StaffGroup <<
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %                        %
-% ESCALA MENOR HARMÓNICO %
+% ESCALA MENOR HARMÓNICA %
 %                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-do_escalaMenorHarmonico = \relative {
+do_escalaMenorHarmonica = \relative {
   \key c \minor
   \time 2/4
   \omit Voice.StringNumber
@@ -100,26 +100,26 @@ do_escalaMenorHarmonico = \relative {
   c'8\3 d\3 es\3 f\2 | g\2 aes\1 b\1 c\1 | b\1 aes\1 g\2 f\2 | es\3 d\3 c4\3 \bar "|."
 }
 
-tabDoMenorHarmonico = \new TabStaff = "Tab" {
+tabDoMenorHarmonica = \new TabStaff = "Tab" {
   \clef moderntab
   \set Staff.stringTunings = #portugueseGuitarTuning
-  \do_escalaMenorHarmonico
+  \do_escalaMenorHarmonica
 }
 
-pautaDoMenorHarmonico = \new Staff = "Guitarra Pt.a" \do_escalaMenorHarmonico
+pautaDoMenorHarmonica = \new Staff = "Guitarra Pt.a" \do_escalaMenorHarmonica
 
-escalaDoMenorHarmonico = \new StaffGroup <<
-  \tabDoMenorHarmonico
-  \pautaDoMenorHarmonico
+escalaDoMenorHarmonica = \new StaffGroup <<
+  \tabDoMenorHarmonica
+  \pautaDoMenorHarmonica
 >>
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %                       %
-% ESCALA MENOR MELÓDICO %
+% ESCALA MENOR MELÓDICA %
 %                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
-do_escalaMenorMelodico = \relative {
+do_escalaMenorMelodica = \relative {
   \key c \minor
   \time 2/4
   \omit Voice.StringNumber
@@ -128,17 +128,17 @@ do_escalaMenorMelodico = \relative {
   c'8\3 d\3 es\3 f\2 | g\1 a\1 b\1 c\1 | bes\1 aes\1 g\2 f\2 | es\3 d\3 c4\3 \bar "|."
 }
 
-tabDoMenorMelodico = \new TabStaff = "Tab" {
+tabDoMenorMelodica = \new TabStaff = "Tab" {
   \clef moderntab
   \set Staff.stringTunings = #portugueseGuitarTuning
-  \do_escalaMenorMelodico
+  \do_escalaMenorMelodica
 }
 
-pautaDoMenorMelodico = \new Staff = "Guitarra Pt.a" \do_escalaMenorMelodico
+pautaDoMenorMelodica = \new Staff = "Guitarra Pt.a" \do_escalaMenorMelodica
 
-escalaDoMenorMelodico = \new StaffGroup <<
-  \tabDoMenorMelodico
-  \pautaDoMenorMelodico
+escalaDoMenorMelodica = \new StaffGroup <<
+  \tabDoMenorMelodica
+  \pautaDoMenorMelodica
 >>
 
 %%%%%%%%%%%%%%%%

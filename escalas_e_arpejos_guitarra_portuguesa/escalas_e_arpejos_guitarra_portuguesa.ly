@@ -1,11 +1,12 @@
 \version "2.24.4"
 
-\include "tonalidade_do.ly"
+\include "tonalidades_do.ly"
+\include "tonalidades_sol.ly"
 
 % Increase spacing between systems and add margin space for readability
 \paper {
   markup-markup-spacing.padding = #4
-  markup-system-spacing.padding = #4
+  markup-system-spacing.padding = #6
   system-system-spacing.basic-distance = #16
   system-system-spacing.padding = #4
   top-margin = 2\cm
@@ -37,7 +38,7 @@
 %                  %
 %%%%%%%%%%%%%%%%%%%%
 
-\markup { \fill-line { \bold \fontsize #2 "Tonalidade de Dó" } }
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Dó" } }
 
 \score {
   \escalaDoMaior
@@ -49,17 +50,50 @@
 }
 \score {
   \escalaDoMenorNatural
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Dó Menor Natural" } } }
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Dó Menor Naturais" } } }
 }
 \score {
-  \escalaDoMenorHarmonico
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Dó Menor Harmónico" } } }
+  \escalaDoMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Dó Menor Harmónicas" } } }
 }
 \score {
-  \escalaDoMenorMelodico
-  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Dó Menor Melódico" } } }
+  \escalaDoMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Dó Menor Melódicas" } } }
 }
 \score {
   \arpejoDoMenor
   \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Dó Menor" } } }
+}
+
+%%%%%%%%%%%%%%%%%%%%%
+%                   %
+% TONALIDADE DE SOL %
+%                   %
+%%%%%%%%%%%%%%%%%%%%%
+
+\markup { \fill-line { \bold \fontsize #2 "Tonalidades de Sol" } }
+
+\score {
+  \escalaSolMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol Maior" } } }
+}
+\score {
+  \arpejoSolMaior
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Sol Maior" } } }
+}
+\score {
+  \escalaSolMenorNatural
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol Menor Naturais" } } }
+}
+\score {
+  \escalaSolMenorHarmonica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol Menor Harmónicas" } } }
+}
+\score {
+  \escalaSolMenorMelodica
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Escalas Sol Menor Melódicas" } } }
+}
+\score {
+  \arpejoSolMenor
+  \header { piece = \markup { \fill-line { \bold \fontsize #1 "Arpejos Sol Menor" } } }
 }
