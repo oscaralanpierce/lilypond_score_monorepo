@@ -57,7 +57,7 @@ disMelodicMinorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  dis8 eis fis gis | ais bis\2 cisis\2 dis\2 | cis b ais gis | fis eis dis4 \bar "||"
+  dis8 eis fis gis | ais bis\4 cisis\4 dis\4 | cis b ais gis | fis eis dis4 \bar "||"
   dis'8\5 eis\5 fis\4 gis\4 | ais\4 bis\3 cisis\3 dis\3 | cis\3 b\3 ais\4 gis\4 | fis\4 eis\5 dis4\5 \bar "||"
   dis'8\3 eis\3 fis\3 gis\2 | ais\2 bis cisis dis | cis b ais\2 gis\2 | fis\3 eis\3 dis4\3 \bar "|."
 }

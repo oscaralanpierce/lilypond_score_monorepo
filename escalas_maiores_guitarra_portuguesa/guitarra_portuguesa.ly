@@ -221,7 +221,7 @@ aesMajorMusic = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  aes8\4 bes\4 c\5 des | ees f g aes | g f ees des | c\5 bes aes4 \bar "||"
+  aes8\6 bes\5 c\5 des\4 | ees\4 f g aes | g f ees des | c\5 bes aes4 \bar "||"
   aes'8\4 bes\4 c\3 des\3 | ees\3 f\2 g\2 aes\2 | g\2 f\2 ees\3 des\3 | c\3 bes\4 aes4\4 \bar "|."
 }
 
