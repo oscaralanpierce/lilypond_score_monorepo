@@ -14,7 +14,7 @@ resus_escalaMaior = \relative {
   \omit Voice.StringNumber
 
   ees8\6 f g aes | bes c\4 d ees | d c bes aes | g f ees4 \bar "||"
-  ees'8 f\4 g aes | bes\3 c\2 d\2 ees\2 | d\2 c\2 bes\3 aes | g f\3 ees4 \bar "||"
+  ees'8 f\4 g aes | bes\3 c\2 d\2 ees\2 | d\2 c\2 bes\3 aes | g f\4 ees4 \bar "||"
   ees'8\3 f\3 g\2 aes\2 | bes\1 c\1 d\1 ees\1 | d\1 c\1 bes\1 aes\2 | g\2 f\3 ees4\3 \bar "|."
 }
 
@@ -72,7 +72,7 @@ resus_escalaMenorNatural = \relative {
   \omit Voice.StringNumber
 
   dis8 eis fis gis | ais b cis dis | cis b ais gis | fis eis dis4 \bar "||"
-  dis'8\5 eis\5 fis\4 gis\4 | ais\4 b\3 cis\3 dis\3 | cis\3 b\3 ais\4 gis\4 | fis\4 eis\5 dis4\5 \bar "||"
+  dis'8\4 eis\4 fis\4 gis\3 | ais\3 b\3 cis\2 dis\2 | cis\2 b\3 ais\3 gis\3 | fis\4 eis\4 dis4\4 \bar "||"
   dis'8\3 eis\3 fis\3 gis\2 | ais\2 b cis dis | cis b ais\2 gis\2 | fis\3 eis\3 dis4\3 \bar "|."
 }
 
@@ -101,7 +101,7 @@ resus_escalaMenorHarmonica = \relative {
   \omit Voice.StringNumber
 
   dis8 eis fis gis | ais b cisis dis | cisis b ais gis | fis eis dis4 \bar "||"
-  dis'8\5 eis\5 fis\4 gis\4 | ais\4 b\3 cisis\3 dis\3 | cisis\3 b\3 ais\4 gis\4 | fis\4 eis\5 dis4\5 \bar "||"
+  dis'8\4 eis\4 fis\4 gis\3 | ais\3 b\3 cisis\2 dis\2 | cisis\2 b\3 ais\3 gis\3 | fis\4 eis\4 dis4\4 \bar "||"
   dis'8\3 eis\3 fis\3 gis\2 | ais\2 b cisis dis | cisis b ais\2 gis\2 | fis\3 eis\3 dis4\3 \bar "|."
 }
 
@@ -130,7 +130,7 @@ resus_escalaMenorMelodica = \relative {
   \omit Voice.StringNumber
 
   dis8 eis fis gis | ais bis\4 cisis\4 dis\4 | cis b ais gis | fis eis dis4 \bar "||"
-  dis'8\5 eis\5 fis\4 gis\4 | ais\4 bis\3 cisis\3 dis\3 | cis\3 b\3 ais\4 gis\4 | fis\4 eis\5 dis4\5 \bar "||"
+  dis'8\4 eis\4 fis\4 gis\3 | ais\3 bis\3 cisis\2 dis\2 | cis\2 b\3 ais\3 gis\3 | fis\4 eis\4 dis4\4 \bar "||"
   dis'8\3 eis\3 fis\3 gis\2 | ais\2 bis cisis dis | cis b ais\2 gis\2 | fis\3 eis\3 dis4\3 \bar "|."
 }
 
@@ -158,9 +158,9 @@ resus_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  \tuplet 3/2 { dis8 fis ais } \tuplet 3/2 { dis\5 fis\4 ais\4 } |
-  \tuplet 3/2 { dis\3 fis\3 ais\2 } \tuplet 3/2 { dis ais\2 fis\3 } |
-  \tuplet 3/2 { dis\3 ais\4 fis\4 } \tuplet 3/2 { dis\5 ais fis } | dis2\fermata \bar "|."
+  \tuplet 3/2 { dis8 fis ais } \tuplet 3/2 { dis\5 fis\4 ais\3 } |
+  \tuplet 3/2 { dis\3 fis\2 ais\1 } \tuplet 3/2 { dis\1 ais\1 fis\2 } |
+  \tuplet 3/2 { dis\3 ais\3 fis\4 } \tuplet 3/2 { dis\5 ais fis } | dis2\fermata \bar "|."
 }
 
 tabArpejoReSusMenor = \new TabStaff = "Tab" {

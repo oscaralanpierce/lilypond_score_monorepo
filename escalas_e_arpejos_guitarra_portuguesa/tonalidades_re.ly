@@ -72,7 +72,7 @@ re_escalaMenorNatural = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  d8\6 e f g | a\5 bes c d\4 | c bes a\5 g | f e d4\6 \bar "||"
+  d8\6 e f g        | a\5 bes c\5 d\4   | c\5 bes a\5 g     | f e d4\6 \bar "||"
   d'8\4 e\4 f\3 g\3 | a\3 bes\2 c\2 d\2 | c\2 bes\2 a\3 g\3 | f\3 e\4 d4\4 \bar "||"
   d'8\3 e\3 f\3 g\2 | a\2 bes\1 c\1 d\1 | c\1 bes\1 a\2 g\2 | f\3 e\3 d4\3 \bar "|."
 }

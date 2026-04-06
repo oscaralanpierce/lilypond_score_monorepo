@@ -41,7 +41,7 @@ lasus_arpejoMaior = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  bes8 d f bes | d f bes f | d bes f d | bes2\fermata \bar "|."
+  bes8 d f\4 bes\3 | d\3 f\2 bes\1 f\2 | d\3 bes\3 f\4 d | bes2\fermata \bar "|."
 }
 
 tabArpejoSibMaior = \new TabStaff = "Tab" {

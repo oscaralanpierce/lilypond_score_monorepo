@@ -125,7 +125,7 @@ fa_escalaMenorMelodica = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  f8\6 g aes bes | c\5 d\5 e\4 f\4 | es\4 des\5 c\5 bes | aes g f4\6 \bar "||"
+  f8\6 g aes bes | c\4 d\5 e\4 f\4 | es\4 des\5 c\4 bes | aes g f4\6 \bar "||"
   f'8\4 g\4 aes\3 bes\3 | c\3 d\2 e\2 f\2 | es\2 des\2 c\3 bes\3 | aes\3 g\4 f4\4 \bar "|."
 }
 
@@ -153,7 +153,7 @@ fa_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  f8 aes c\5 f\4 | aes c\3 f\2 c\3 | aes f\4 c\5 aes | f2\fermata \bar "|."
+  f8 aes c\5 f\4 | aes c\2 f\1 c\2 | aes f\4 c\5 aes | f2\fermata \bar "|."
 }
 
 tabArpejoFaMenor = \new TabStaff = "Tab" {

@@ -152,7 +152,7 @@ si_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  b8\6 d\6 fis\5 b\4 | d\3 fis\3 b\2 fis\3 | d\3 b\4 fis\5 d\6 | b2\6\fermata \bar "|."
+  b8\6 d\6 fis\5 b\4 | d\3 fis\2 b\2 fis\2 | d\3 b\4 fis\5 d\6 | b2\6\fermata \bar "|."
 }
 
 tabArpejoSiMenor = \new TabStaff = "Tab" {

@@ -43,8 +43,8 @@ mi_arpejoMaior = \relative {
   \omit Voice.StringNumber
 
   \tuplet 3/2 { e8\6 gis\6 b\5 } \tuplet 3/2 { e\4 gis\3 b\3 } |
-  \tuplet 3/2 { e\3 gis\2 b\2 } \tuplet 3/2 { e\1 b\2 gis\2 } |
-  \tuplet 3/2 { e\3 b\3 gis\3 } \tuplet 3/2 { e\4 b\5 gis\6 } |
+  \tuplet 3/2 { e\2 gis\2 b\1 } \tuplet 3/2 { e\1 b\1 gis\2 } |
+  \tuplet 3/2 { e\2 b\3 gis\3 } \tuplet 3/2 { e\4 b\5 gis\6 } |
   e2\6\fermata \bar "|."
 }
 
@@ -160,8 +160,8 @@ mi_arpejoMenor = \relative {
   \omit Voice.StringNumber
 
   \tuplet 3/2 { e8\6 g\6 b\5 } \tuplet 3/2 { e\4 g\3 b\3 } |
-  \tuplet 3/2 { e\3 g\2 b\2 } \tuplet 3/2 { e\1 b\2 g\2 } |
-  \tuplet 3/2 { e\3 b\3 g\3 } \tuplet 3/2 { e\4 b\5 g\6 } |
+  \tuplet 3/2 { e\2 g\2 b\2 } \tuplet 3/2 { e\1 b\2 g\2 } |
+  \tuplet 3/2 { e\2 b\3 g\3 } \tuplet 3/2 { e\4 b\5 g\6 } |
   e2\6\fermata \bar "|."
 }
 

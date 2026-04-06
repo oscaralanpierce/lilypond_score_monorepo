@@ -41,7 +41,7 @@ solsus_arpejoMaior = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  aes8 c\5 ees\5 aes\4 | c\4 ees\3 aes\2 ees\3 | c\4 aes\4 ees\5 c\5 | aes2\fermata \bar "|."
+  aes8 c\5 ees\5 aes\4 | c\3 ees\2 aes\1 ees\2 | c\3 aes\4 ees\5 c\5 | aes2\fermata \bar "|."
 }
 
 tabArpejoLaBemolMaior = \new TabStaff = "Tab" {
@@ -152,7 +152,7 @@ solsus_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  gis8 b\5 dis\5 gis\4 | b\4 dis\3 gis\2 dis\3 | b\4 gis\4 dis\5 b\5 | gis2\fermata \bar "|."
+  gis8 b\6 dis\5 gis\4 | b\3 dis\2 gis\1 dis\2 | b\3 gis\4 dis\5 b\6 | gis2\fermata \bar "|."
 }
 
 tabArpejoSolSusMenor = \new TabStaff = "Tab" {
