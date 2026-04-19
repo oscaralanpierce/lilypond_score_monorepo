@@ -41,7 +41,7 @@ do_arpejoMaior = \relative c' {
   \time 2/4
   \omit Voice.StringNumber
 
-  c8\5 e\4 g\3 c\2 | e\2 g\2 c\1 g\2 | e\2 c\2 g\3 e\4 | c2\5\fermata \bar "|."
+  c8\5 e\4 g\3 c\2 | e\2 g\2 c\2 g\1 | e\2 c\2 g\3 e\4 | c2\5\fermata \bar "|."
 }
 
 tabArpejoDoMaior = \new TabStaff = "Tab" {
@@ -68,7 +68,7 @@ do_escalaMenorNatural = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  c'8\5 d\5 es f\4 | g aes bes\2 c\3 | bes\3 aes g f\4 | es d\5 c4\5 \bar "||"
+  c'8\5 d\5 es f\4 | g aes bes\3 c\2 | bes\3 aes g f\4 | es d\5 c4\5 \bar "||"
   c'8\3 d\3 es\3 f\2 | g\2 aes\1 bes\1 c\1 | bes\1 aes\1 g\2 f\2 | es\3 d\3 c4\3 \bar "|."
 }
 
@@ -152,7 +152,7 @@ do_arpejoMenor = \relative c' {
   \time 2/4
   \omit Voice.StringNumber
 
-  c8\5 ees\4 g\3 c\2 | ees\1 g\1 c\1 g\1 | ees\1 c\2 g\3 ees\4 | c2\5\fermata \bar "|."
+  c8\5 ees\4 g\3 c\2 | ees\2 g\2 c\1 g\2 | ees\2 c\2 g\3 ees\4 | c2\5\fermata \bar "|."
 }
 
 tabArpejoDoMenor = \new TabStaff = "Tab" {

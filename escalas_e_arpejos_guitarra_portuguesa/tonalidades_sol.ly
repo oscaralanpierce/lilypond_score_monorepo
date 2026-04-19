@@ -41,7 +41,7 @@ sol_arpejoMaior = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  g8\6 b\5 d\4 g\3 | b\2 d\2 g\1 d\2 | b\2 g\3 d\4 b\5 | g2\6\fermata \bar "|."
+  g8\6 b\5 d\4 g\3 | b\3 d\2 g\1 d\2 | b\3 g\3 d\4 b\5 | g2\6\fermata \bar "|."
 }
 
 tabArpejoSolMaior = \new TabStaff = "Tab" {
@@ -152,7 +152,7 @@ sol_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  g8\6 bes\5 d\5 g\3 | bes\3 d\2 g\1 d\2 | bes\3 g\3 d\5 bes\5 | g2\6\fermata \bar "|."
+  g8\6 bes\5 d\4 g\3 | bes\3 d\2 g\1 d\2 | bes\3 g\3 d\4 bes\5 | g2\6\fermata \bar "|."
 }
 
 tabArpejoSolMenor = \new TabStaff = "Tab" {

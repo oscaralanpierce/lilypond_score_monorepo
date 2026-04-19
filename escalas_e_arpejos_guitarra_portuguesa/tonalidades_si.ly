@@ -41,7 +41,7 @@ si_arpejoMaior = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  b8\6 dis\6 fis\5 b\5 | dis\3 fis\3 b\2 fis\3 | dis\3 b\5 fis\5 dis\6 | b2\6\fermata \bar "|."
+  b8 dis fis\3 b\3 | dis\2 fis\2 b\1 fis\2 | dis\2 b\3 fis\3 dis | b2\fermata \bar "|."
 }
 
 tabArpejoSiMaior = \new TabStaff = "Tab" {
@@ -69,7 +69,7 @@ si_escalaMenorNatural = \relative {
   \omit Voice.StringNumber
 
   b8 cis d e | fis g a b\2 | a g fis e | d cis b4 \bar "||"
-  b'8\4 cis\4 d\3 e\3 | fis\3 g\2 a\2 b\2 | a\2 g\2 fis\3 e\3 | d\3 cis\4 b4\4 \bar "|."
+  b'8\4 cis\4 d\4 e\3 | fis\3 g\3 a\2 b\2 | a\2 g\3 fis\3 e\3 | d\4 cis\4 b4\4 \bar "|."
 }
 
 tabSiMenorNatural = \new TabStaff = "Tab" {
@@ -97,7 +97,7 @@ si_escalaMenorHarmonica = \relative {
   \omit Voice.StringNumber
 
   b8 cis d e | fis g ais b\2 | ais g fis e | d cis b4 \bar "||"
-  b'8\4 cis\4 d\3 e\3 | fis\3 g\2 ais\2 b\2 | ais\2 g\2 fis\3 e\3 | d\3 cis\4 b4\4 \bar "|."
+  b'8\4 cis\4 d\4 e\3 | fis\3 g\3 ais\2 b\2 | ais\2 g\3 fis\3 e\3 | d\4 cis\4 b4\4 \bar "|."
 }
 
 tabSiMenorHarmonica = \new TabStaff = "Tab" {
@@ -125,7 +125,7 @@ si_escalaMenorMelodica = \relative {
   \omit Voice.StringNumber
 
   b8 cis d e | fis gis ais b\2 | a g fis e | d cis b4 \bar "||"
-  b'8\4 cis\4 d\3 e\3 | fis\3 gis\2 ais\2 b\2 | a\2 g\2 fis\3 e\3 | d\3 cis\4 b4\4 \bar "|."
+  b'8\4 cis\4 d\4 e\3 | fis\3 gis\2 ais\2 b\2 | a\2 g\3 fis\3 e\3 | d\4 cis\4 b4\4 \bar "|."
 }
 
 tabSiMenorMelodica = \new TabStaff = "Tab" {
@@ -152,7 +152,7 @@ si_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  b8\6 d\6 fis\5 b\4 | d\3 fis\2 b\2 fis\2 | d\3 b\4 fis\5 d\6 | b2\6\fermata \bar "|."
+  b8 d fis b\3 | d\2 fis\2 b fis\2 | d\2 b\3 fis d | b2\fermata \bar "|."
 }
 
 tabArpejoSiMenor = \new TabStaff = "Tab" {

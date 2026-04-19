@@ -13,7 +13,7 @@ fa_escalaMaior = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  f8\6 g a bes | c\5 d\5 e f | e d\5 c\5 bes | a g f4\6 \bar "||"
+  f8\6 g a bes | c\4 d\4 e f | e d\4 c\4 bes | a g f4\6 \bar "||"
   f'8 g a bes | c\2 d\1 e\1 f\1 | e\1 d\1 c\2 bes | a g f4 \bar "||"
   f'8\3 g\3 a\2 bes\2 | c\2 d\1 e\1 f\1 | e\1 d\1 c\2 bes\2 | a\2 g\3 f4\3 \bar "|."
 }
@@ -70,7 +70,7 @@ fa_escalaMenorNatural = \relative {
   \omit Voice.StringNumber
 
   f8\6 g aes bes | c\5 des es f\3 | es des c\5 bes | aes g f4\6 \bar "||"
-  f'8\4 g\4 aes\3 bes\3 | c\3 des\2 es\2 f\2 | es\2 des\2 c\3 bes\3 | aes\3 g\4 f4\4 \bar "|."
+  f'8\4 g\4 aes\4 bes\3 | c\3 des\3 es\2 f\2 | es\2 des\3 c\3 bes\3 | aes\4 g\4 f4\4 \bar "|."
 }
 
 tabFaMenorNatural = \new TabStaff = "Tab" {
@@ -98,7 +98,7 @@ fa_escalaMenorHarmonica = \relative {
   \omit Voice.StringNumber
 
   f8\6 g aes bes | c\5 des\5 e\3 f\3 | e\3 des\5 c\5 bes | aes g f4\6 \bar "||"
-  f'8\4 g\4 aes\3 bes\3 | c\3 des\2 e\2 f\2 | e\2 des\2 c\3 bes\3 | aes\3 g\4 f4\4 \bar "|."
+  f'8\4 g\4 aes\4 bes\3 | c\3 des\3 e\2 f\2 | e\2 des\3 c\3 bes\3 | aes\4 g\4 f4\4 \bar "|."
 }
 
 tabFaMenorHarmonica = \new TabStaff = "Tab" {
@@ -125,8 +125,8 @@ fa_escalaMenorMelodica = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  f8\6 g aes bes | c\4 d\5 e\4 f\4 | es\4 des\5 c\4 bes | aes g f4\6 \bar "||"
-  f'8\4 g\4 aes\3 bes\3 | c\3 d\2 e\2 f\2 | es\2 des\2 c\3 bes\3 | aes\3 g\4 f4\4 \bar "|."
+  f8\6 g aes bes | c\4 d\4 e\3 f\3 | ees\3 des\4 c\4 bes | aes g f4\6 \bar "||"
+  f'8\4 g\4 aes\4 bes\3 | c\3 d\2 e\2 f\2 | es\2 des\3 c\3 bes\3 | aes\4 g\4 f4\4 \bar "|."
 }
 
 tabFaMenorMelodica = \new TabStaff = "Tab" {

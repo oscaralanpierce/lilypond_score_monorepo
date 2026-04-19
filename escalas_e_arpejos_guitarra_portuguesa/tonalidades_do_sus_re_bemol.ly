@@ -152,7 +152,7 @@ dosus_arpejoMenor = \relative c' {
   \time 2/4
   \omit Voice.StringNumber
 
-  cis8\6 e\6 gis\5 cis\4 | e\3 gis\2 cis\1 gis\2 | e\3 cis\4 gis\5 e\6 | cis2\6\fermata \bar "|."
+  cis8\5 e\4 gis\3 cis\2 | e\2 gis\2 cis\1 gis\2 | e\2 cis\2 gis\3 e\4 | cis2\5\fermata \bar "|."
 }
 
 tabArpejoDoSusMenor = \new TabStaff = "Tab" {

@@ -96,7 +96,7 @@ la_escalaMenorHarmonica = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  a8 b c d | e f gis a | gis f e d | c b a4 \bar "||"
+  a8 b c d | e f gis a\3 | gis f e d | c b a4 \bar "||"
   a'8\3 b\3 c\3 d\2 | e\2 f gis a | gis f e\2 d\2 | c\3 b\3 a4\3 \bar "|."
 }
 

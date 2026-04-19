@@ -42,9 +42,9 @@ resus_arpejoMaior = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  \tuplet 3/2 { ees8 g bes } \tuplet 3/2 { ees\5 g\4 bes\4 } |
-  \tuplet 3/2 { ees\3 g\3 bes\2 } \tuplet 3/2 { ees bes\2 g\3 } |
-  \tuplet 3/2 { ees\3 bes\4 g\4 } \tuplet 3/2 { ees\5 bes g } | ees2\fermata \bar "|."
+  \tuplet 3/2 { ees8 g bes } \tuplet 3/2 { ees\4 g\3 bes\3 } |
+  \tuplet 3/2 { ees\2 g\2 bes\2 } \tuplet 3/2 { ees bes\2 g\2 } |
+  \tuplet 3/2 { ees\2 bes\3 g\3 } \tuplet 3/2 { ees\4 bes g } | ees2\fermata \bar "|."
 }
 
 tabArpejoMibMaior = \new TabStaff = "Tab" {
@@ -158,9 +158,9 @@ resus_arpejoMenor = \relative {
   \time 2/4
   \omit Voice.StringNumber
 
-  \tuplet 3/2 { dis8 fis ais } \tuplet 3/2 { dis\5 fis\4 ais\3 } |
-  \tuplet 3/2 { dis\3 fis\2 ais\1 } \tuplet 3/2 { dis\1 ais\1 fis\2 } |
-  \tuplet 3/2 { dis\3 ais\3 fis\4 } \tuplet 3/2 { dis\5 ais fis } | dis2\fermata \bar "|."
+  \tuplet 3/2 { dis8 fis ais } \tuplet 3/2 { dis\4 fis\3 ais\3 } |
+  \tuplet 3/2 { dis\2 fis\2 ais\1 } \tuplet 3/2 { dis\1 ais\1 fis\2 } |
+  \tuplet 3/2 { dis\2 ais\3 fis\3 } \tuplet 3/2 { dis\4 ais fis } | dis2\fermata \bar "|."
 }
 
 tabArpejoReSusMenor = \new TabStaff = "Tab" {
